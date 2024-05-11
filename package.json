@@ -26,11 +26,14 @@
     "esbuild": "^0.21.1",
     "eslint": "^8.57.0",
     "typescript": "^5.4.5",
-    "tfx-cli": "^0.17.0"
+    "tfx-cli": "^0.17.0",
+    "mocha": "^10.4.0",
+    "sync-request": "^6.1.0"
   },
   "scripts": {
     "compile": "tsc -p ./",
     "package": "tfx extension create --json --no-color --root out/dist --manifest-js extension.config.js --output-path out/extension",
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "test": "node ./out/dist/test/runTest.js"
   }
 }

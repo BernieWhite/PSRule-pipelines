@@ -256,6 +256,10 @@ task TestModule Dependencies, {
     }
 }
 
+task TestTask PackageRestore, {
+
+}
+
 # Synopsis: Restore NPM packages
 task PackageRestore {
     exec { & npm install --no-save }
