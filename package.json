@@ -25,7 +25,7 @@
     "@typescript-eslint/parser": "^8.12.2",
     "esbuild": "^0.24.0",
     "eslint": "^9.14.0",
-    "tfx-cli": "^0.17.0",
+    "tfx-cli": "^0.18.0",
     "typescript": "^5.6.2"
   },
   "scripts": {
